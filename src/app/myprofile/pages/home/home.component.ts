@@ -14,7 +14,8 @@ export class HomeComponent {
   constructor () {
     this.projects = [
       { name: 'MyLeasing Angular', image: 'assets/img/angular.png', description: 'This is a project in Angular.', url: 'https://quervin.github.io/MyleasingUI/#/index', button: 'Go MyLeasing Angular' }, 
-      { name: 'MyLeasing MVC', image: 'assets/img/dotnetcore.png', description: 'This is a project in MVC .Net Core.', url: 'https://myleasinghidalgo.azurewebsites.net/', button: 'Go MyLeasing MVC' }
+      { name: 'MyLeasing MVC', image: 'assets/img/dotnetcore.png', description: 'This is a project in MVC .Net Core.', url: 'https://myleasinghidalgo.azurewebsites.net/', button: 'Go MyLeasing MVC' },
+      { name: 'OnSale MVC', image: 'assets/img/dotnetcore.png', description: 'This is a project in MVC .Net Core.', url: 'https://onsalehidalgo.azurewebsites.net/', button: 'Go MyLeasing MVC' }
     ];
 
     this.abilities = [
